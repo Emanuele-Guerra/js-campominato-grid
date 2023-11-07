@@ -21,26 +21,26 @@ start.addEventListener("click", function(){
         
          
         for (let i = 1; i <= numCella; i++) {
-
+            let cella =  document.createElement("div")
 
             cella.addEventListener("click", function(){
                 this.classList.toggle("clicked")})
             
             if (modevalore == "easy"){
-                let cella =  document.createElement("div")
+                
                 cella.classList.add("easy-cell")
                 grid.appendChild(cella)
-                cella.innerHTML = ([i])   
+                cella.innerHTML = ([])   
             } else if (modevalore == "medium"){
-                let cella =  document.createElement("div")
+                
                 cella.classList.add("mid-cell")
                 grid.appendChild(cella)
-                cella.innerHTML = ([i])
+                cella.innerHTML = ([])
             } else if (modevalore == "hard"){
-                let cella =  document.createElement("div")
+                
                 cella.classList.add("hard-cell")
                 grid.appendChild(cella)
-                cella.innerHTML = ([i])
+                cella.innerHTML = ([])
             }
                  
         
