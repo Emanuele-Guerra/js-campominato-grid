@@ -14,25 +14,37 @@ header{
     padding: 0 3rem;
 }
 #grid{
-    width: 600px;
-    height: 600px;
-    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin: 2rem auto;
     display: flex;
     flex-wrap: wrap;
 }
-#easy-cell{
+.easy-cell{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-#mid-cell{
+.mid-cell{
     width: calc(100% / 9);
     height: calc(100% / 9);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#hard-cell{
+.hard-cell{
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clicked{
+    background-color: cyan;
 }
