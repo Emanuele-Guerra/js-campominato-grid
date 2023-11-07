@@ -18,14 +18,20 @@ start.addEventListener("click", function(){
         }   else if (modevalore == "hard"){
             numCella = 49
         }
-               
+        
+         
         for (let i = 1; i <= numCella; i++) {
-            if (modevalore = "easy"){
+
+
+            cella.addEventListener("click", function(){
+                this.classList.toggle("clicked")})
+            
+            if (modevalore == "easy"){
                 let cella =  document.createElement("div")
                 cella.classList.add("easy-cell")
                 grid.appendChild(cella)
                 cella.innerHTML = ([i])   
-            } else if (modevalore = "medium"){
+            } else if (modevalore == "medium"){
                 let cella =  document.createElement("div")
                 cella.classList.add("mid-cell")
                 grid.appendChild(cella)
@@ -38,14 +44,7 @@ start.addEventListener("click", function(){
             }
                  
         
-            cella.addEventListener("click", function(){
-                this.classList.toggle("clicked")
-                
-                
-    
-    
-            })
-       
+            
         
         }
 })
