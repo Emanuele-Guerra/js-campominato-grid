@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 0 3rem;
+}
+#grid{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#easy-cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid black;
+
+}
+#mid-cell{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 2px solid black;
+}
+#hard-cell{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 2px solid black;
+}
