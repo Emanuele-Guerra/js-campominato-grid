@@ -45,6 +45,7 @@ body{
     margin: 1.5rem auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 select{
     border: 2px solid black;
@@ -76,33 +77,42 @@ button{
 .easy-cell{
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 2px solid white;
+    border: 1px solid rgb(46, 46, 46);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3D3534;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+    
 }
 .mid-cell{
     width: calc(100% / 9);
     height: calc(100% / 9);
-    border: 2px solid rgb(204, 204, 204);
+    border: 1px solid rgb(46, 46, 46);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3D3534;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+    
 }
 .hard-cell{
     width: calc(100% / 7);
     height: calc(100% / 7);
-    border: 2px solid rgb(204, 204, 204);
+    border: 1px solid rgb(46, 46, 46);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3D3534;
+    background-size: contain;
+    background: url(../img/bigdoor2.png);
+    background-size: contain;
+    
 }
 .clicked{
-    background-image: url(../img/da.jpg);
+    background-image: url(../img/cacodemon.png);
     background-size: contain;
+    background-color: rgb(0, 0, 0);
 }
 .foot{
     width: 100%;
