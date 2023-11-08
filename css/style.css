@@ -39,6 +39,11 @@ body{
     background-image: url(../img/skinface.1.jpg);
     background-size: cover;
 }
+main{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
 #grid{
     width: 510px;
     height: 510px;
