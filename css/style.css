@@ -54,7 +54,9 @@ main{
     
 }
 .bg-black{
-    background-color: black;
+    background: url(../img/doom-game-texture-wallpaper-preview.jpg);
+    
+    
 }
 select{
     border: 2px solid black;
