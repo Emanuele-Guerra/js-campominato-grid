@@ -29,7 +29,7 @@ header{
     
 }
 span{
-    background: linear-gradient(180deg, rgba(18,22,73,1) 42%, rgba(20,25,34,1) 44%, rgba(241,155,12,1) 60%);
+    background: linear-gradient(180deg, rgba(18,22,73,1) 32%, rgba(20,25,34,1) 35%, rgba(241,155,12,1) 43%);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 80px;
