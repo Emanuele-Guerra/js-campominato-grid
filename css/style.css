@@ -9,28 +9,32 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-image: url(../img/26.ddztkos-34a2ddb7-3f2e-4b70-b243-4859ea8124e5.png);
     background-size: cover;
+    opacity: 0.8;
     padding: 0 3rem;
 }
 .lefted{
     font-family: 'Doom 2016 Left', sans-serif;
-    font-size: 60px;
+    
 }
 .righted{
     font-family: 'Doom 2016 right', sans-serif;
-    font-size: 60px;
+    
 }
 .centered{
     font-family: 'Doom 2016 text', sans-serif;
-    font-size: 60px;
+    
 }
 span{
-    color: white;
+    background: linear-gradient(180deg, rgba(18,22,73,1) 42%, rgba(20,25,34,1) 44%, rgba(241,155,12,1) 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    -webkit-text-stroke: 5px black;
 }
-
 body{
     background-image: url(../img/skinface.1.jpg);
     background-size: cover;
@@ -38,19 +42,45 @@ body{
 #grid{
     width: 510px;
     height: 510px;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     display: flex;
     flex-wrap: wrap;
 }
-
+select{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+    
+    
+}
+option{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color:rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+    
+    
+}
+button{
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: rgb(60, 60, 60);
+    font-family: 'DooM', sans-serif;
+    color:#C30000;
+    
+    
+}
 .easy-cell{
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 2px solid rgb(204, 204, 204);
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #3D3534;
 }
 .mid-cell{
     width: calc(100% / 9);
@@ -59,6 +89,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3D3534;
 }
 .hard-cell{
     width: calc(100% / 7);
@@ -67,6 +98,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3D3534;
 }
 .clicked{
     background-image: url(../img/da.jpg);
